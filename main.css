@@ -1,0 +1,129 @@
+p.stay
+{
+margin-left:10%;
+margin-right:20%;
+font-family: Verdana;
+font-size: 10px;
+}
+
+p.stayhead
+{
+margin-left:10%;
+font-family: Verdana;
+font-size: 18px;
+margin-top:75px;
+margin-bottom:25px;
+}
+
+p.staysign
+{
+margin-left:10%;
+font-family: Verdana;
+font-size: 10px;
+margin-top:25px;
+}
+
+
+p.polar
+{
+margin-left:25px;
+margin-right:25px;
+margin-top:15px;
+margin-bottom:15px;
+}
+
+h1
+{
+background-color:#8B864E;
+height:450px;
+width:100%;
+margin-top:25px;
+margin-bottom:25px;
+}
+
+iframe
+{
+margin-top:30px;
+}
+
+h2
+{
+background-color:#FFAA00;
+height:450px;
+width:100%;
+margin-top:25px;
+margin-bottom:25px;
+}
+
+h3
+{
+background-color:#CD3700;
+height:450px;
+width:100%;
+margin-top:25px;
+margin-bottom:25px;
+}
+
+h4
+{
+background-color:#33339F;
+height:450px;
+width:100%;
+margin-top:25px;
+margin-bottom:25px;
+}
+
+h5
+{
+font-family: Verdana;
+font-size: 18px;
+margin-top:25px;
+margin-bottom:25px;
+}
+
+h6
+{
+font-family: Verdana;
+font-size: 10px;
+margin-top:1px;
+margin-bottom:1px;
+text-indent:5px;
+}
+
+h7
+{
+font-family: Verdana;
+font-size: 10px;
+margin-top:1px;
+margin-bottom:1px;
+text-indent:50px;
+}
+
+
+button {
+    color: #eee;
+    background: #1C606B;
+	width: 100%;
+    font-size: 24px;
+    line-height: 1em;
+    margin-bottom:10px;
+    border: none;
+}
+.menubutton{
+    color: #eee;
+    background:#681A00;
+    font-size: 18px;
+	width: 100%;
+    line-height: 1em;
+    padding: 10px;
+    border: none;
+}
+button:hover {
+    color: #bbb;
+    background: #773119;
+}
+
+/* keep always ontop 
+#header{ position: fixed; top: 0; background: #fff; }
+#data{ margin-top: 25px; }
+*/

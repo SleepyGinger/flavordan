@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+ 	<title>Flavordan | Subway</title>
+	<meta name="description" content="Flavordan made with chutzpah"/>
+	
+    <link rel="stylesheet" type="text/css" href="main.css" />
+</head>
+    
+<body>
+<br>
+	<img src="cone.png" width="62" height="62" align="left" alt="Flavordan" usemap="#justdatip">
+    <img src="cone.png" width="62" height="62" align="right" alt="Flavordan" usemap="#justdatip1">
+	<map name="justdatip">
+	<area shape="rect" coords="7,9,55,58" alt="homepage" href="/">
+	<area shape="circle" coords="31,4,7" alt="secrets" href="justdatip.mp4">
+	</map>
+	<map name="justdatip1">
+	<area shape="rect" coords="7,9,55,58" alt="homepage" href="/">
+	<area shape="circle" coords="31,4,7" alt="secrets" href="Cosmos.mp4">
+	</map>
+	<br>
+	<br>
+	<br>
+	<center>
+	<img src="/noise.png">
+	</center>
+    <a href="moving.html">
+	<button class="menubutton">Moving</button>
+	</a>
+    <br>
+	<br>
+    <a href="stills.html">
+	   <button class="menubutton">Stills</button>
+    </a>
+	<br>
+<center>
+<h4><iframe src="//player.vimeo.com/video/73278917?title=0&amp;byline=0&amp;portrait=0" width="662" height="382" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></h4>
+<h3><iframe src="//player.vimeo.com/video/122358292?title=0&amp;byline=0&amp;portrait=0" width="662" height="382" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></h3>
+<h2><iframe src="//player.vimeo.com/video/99738000?title=0&amp;byline=0&amp;portrait=0" width="662" height="382" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></h2>
+<h3><iframe src="//player.vimeo.com/video/75837186?title=0&amp;byline=0&amp;portrait=0" width="662" height="382" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></h3>
+<h1><iframe src="//player.vimeo.com/video/79449136?title=0&amp;byline=0&amp;portrait=0" width="662" height="382" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></h1>
+
+
+</center>
+
+    <div id="main"></div>
+    
+<!-- JS Scripts -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="js/ion.sound.js"></script>
+
+<script>
+        $( function() {
+            $("button[data-href]").click( function() {
+                location.href = $(this).attr("data-href"); });});
+
+        $('button').click(function() {
+            $('#hamburger').toggleClass('slide-away');
+            $('#main').toggleClass('slide-away');});
+
+        $('#main').click(function() {
+            $('#hamburger').removeClass('slide-away');
+            $('#main').removeClass('slide-away');});
+</script>
+
+</body>
+</html>
